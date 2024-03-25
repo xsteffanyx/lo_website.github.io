@@ -1,0 +1,614 @@
+/*defining all the levels of heiarchy with their fonts and sizes..*/
+h1{
+    font-family:monospace;
+    margin-left: 6%;
+    font-size: 140%;
+}
+
+h2{
+    font-family:monospace;
+    margin-left: 6%;
+    font-size: 180%;
+}
+
+#top a{
+    font-family: "Ephesis", cursive;
+    font-style: italic;
+    color: #89004b;
+    font-size: 750%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 12%;
+    display: inline-block;
+}
+
+h3{
+    font-family: "UnifrakturMaguntia", cursive;
+    text-align: center;
+    font-size: 240%;
+    margin-right: 15%;
+    margin-left: 15%;
+    line-height: 180%;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+
+h4{
+    font-family: monospace;
+    text-align: right;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 120%;
+}
+
+h5{
+    font-family: "UnifrakturMaguntia", cursive;
+    text-align: left;
+    margin-left: 6%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 350%;
+}
+
+p{
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+    margin-left: 18%;
+    margin-right: 18%;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0px;
+}
+
+p.column1{
+    float: left;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0px;
+}
+
+#foot p{
+    font-family:monospace;
+    font-size: 105%;
+}
+
+h4.column1{
+    float: left;
+    margin-left: 20%;
+    margin-right: 55%;
+    text-align: left;
+    font-size: 170%;
+}
+
+.center{
+    float: left;
+    width: 80vw;
+    margin-left: 8%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    height: auto;
+}
+
+#bot a{
+    display: inline;
+    font-family:monospace;
+    color: #89004b;
+    text-align: right;
+    font-size: 160%;
+    margin-left: 12%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+#bot a:hover {
+    color: rgb(255, 56, 156);
+}
+#bot a:active {
+    color: rgb(111, 1, 135);
+}
+a:hover {
+    color: rgb(255, 56, 156);
+}
+a:active {
+    color: rgb(111, 1, 135);
+}
+.aname{
+    display: block;
+    text-decoration: none;
+    font-family:monospace;
+    color: #89004b;
+    font-size: 90%;
+    margin-left: 0%;
+    white-space: nowrap;
+}
+/* .container2 {
+    display: flex;
+  }
+  .container2 > div {
+    flex: 1; 
+  } */
+
+.container2 {
+    display: grid;
+    grid-gap: 2%;
+    width: 60%;
+    margin-left: 30%;
+    grid-template-columns: 1fr 1fr 1fr; /* fraction*/
+  }
+
+/* .container2 {
+    width: 150%;
+}
+.container2 ul {
+    padding: 0; 
+    margin: 0;
+    list-style-type: none; 
+    display: inline;
+}
+.container2 ul li {
+    width: 150%;
+    height: 100%;
+    background-color: none;
+    float: left;
+} */
+/* .li2{
+    display: inline-block;
+    margin-left: 10%;
+} */
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+li{
+    list-style: none;
+    font-family:monospace;
+    margin-left: 25%;
+    font-size: 180%;
+    line-height: 160%;
+}
+
+
+/*defining each div*/
+#lingo{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#Aline{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#AATP{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#AP{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#Deco{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#Bow{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#BABY{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#BLO{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#BRO{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#BOY{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#Bsk{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#Cut{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#Coo{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#EGL{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#GB{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#Ita{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#IW{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#Jet{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#JSK{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#Ker{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#LM{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#LP{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#MM{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#Mana{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#Meta{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#MmM{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#OOTD{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#OP{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#OTT{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#PC{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#RHS{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#Shir{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#SS{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#TPS{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+
+
+/*defining the background*/
+html {
+    background: url(images/AdobeStock_61471142.jpeg) center center fixed;
+    background-size: cover;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+footer{
+    text-align: center;
+    background-color: #89004b;
+    color: white;
+    margin-bottom: -8%;
+    padding: 2%;
+}
+
+.foot{
+    height: 100%;
+    position: relative;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: none;
+    margin-left: 20%;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    margin-top: 4%;
+}
+
+header{
+    background-image: url(images/2034278_c1f3a.gif);
+    margin-bottom: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*back to top button style*/
+.top {
+    display: inline;
+    --offset: 60%; 
+    position: sticky;
+    bottom: 5%;      
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+    
+    /* visual styling */
+    margin-left: 90%;
+    text-decoration: none;
+    padding: 1%;
+    font-family: monospace;
+    color: #fff;
+    background: rgb(255, 56, 156);
+    border-radius: 100px;
+  }
+
+
+/*progress bar style*/
+.progress-container {
+    position: fixed;
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+  .progress-bar {
+    position: fixed;
+    height: 8px;
+    background: rgb(154, 0, 74);
+    width: 0%;
+  }
+
+
+/*sticky heading tabs style*/
+div.content {
+    display: inline-block;
+    width: 100%; 
+    margin-bottom: 0;
+    background: none;
+}
+.content .header {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+}
+.header {
+    padding: 8px 8px;
+    margin-bottom: -5%;
+    background: #89004b;
+    color: #f1f1f1;
+}
+
+
+/*button style*/
+#btn1{
+    margin-left: 40%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #b7ffa5;
+    font-family:monospace;
+    font-size: 170%;
+}
+#btn2{
+    margin-left: 5%;
+    padding: 2.2%;
+    background-color: #ff8f8f;
+    font-family:monospace;
+    font-size: 170%;
+}
+.content1 {
+    display: none;
+}
+.content2 {
+    display: none;
+}
+
+
+iframe{
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom:2%;
+    width: 500;
+    height: 340;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*google fonts css*/
+.ephesis-regular {
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.unifrakturmaguntia-regular {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mukta-extralight {
+    font-family: "Mukta", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+  
+.mukta-light {
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.mukta-regular {
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.mukta-medium {
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.mukta-semibold {
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.mukta-bold {
+    font-family: "Mukta", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.mukta-extrabold {
+    font-family: "Mukta", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    img{max-width: 70%;}
+    #bot a{display: block; margin-left: 0; text-align: left;}
+    h5{font-size: 250%;}
+    h3{font-size: 250%;}
+    h2{font-size: 170%; display: inline-block;}
+    #btn1{margin-left: 30%;}
+    .aname{font-size: 70%; margin-right: 20%; margin-left: 40%;}
+    li{margin-left: -3%; font-size: 180%; margin-right: 5%;}
+    iframe{margin-left: -5%; width: 150; height: 150;}
+    .container2{margin-left: 5%; margin-bottom: 8%;}
+    #top a{font-size: 600%; text-align: center; margin-left: 0%;} 
+    .top{margin-left: 75%; bottom: 15%;}
+    .header{margin-bottom: -12%;}
+
+    #Aline{margin-left: 15%;}
+    #AATP{margin-left:15%;}
+    #AP{margin-left: 15%;}
+    #Deco{margin-left: 15%;}
+    #Bow{margin-left: 15%;}
+    #BABY{margin-left: 15%;}
+    #BLO{margin-left: 15%;}
+    #BRO{margin-left: 15%;}
+    #BOY{margin-left: 15%;}
+    #Bsk{margin-left: 15%;}
+    #Cut{margin-left: 15%;}
+    #Coo{margin-left: 15%;}
+    #EGL{margin-left: 15%;}
+    #GB{margin-left: 15%;}
+    #Ita{margin-left: 15%;}
+    #IW{margin-left: 15%;}
+    #Jet{margin-left: 15%;}
+    #JSK{margin-left: 15%;}
+    #Ker{margin-left: 15%;}
+    #LM{margin-left: 15%;}
+    #LP{margin-left: 15%;}
+    #MM{margin-left: 15%;}
+    #Mana{margin-left: 15%;}
+    #Meta{margin-left: 15%;}
+    #MmM{margin-left: 15%;}
+    #OOTD{margin-left: 15%;}
+    #OTT{margin-left: 15%;}
+    #PC{margin-left: 15%;}
+    #RHS{margin-left: 15%;}
+    #Shir{margin-left: 15%;}
+    #SS{margin-left: 15%;}
+    #TPS{margin-left: 15%;}
+}
