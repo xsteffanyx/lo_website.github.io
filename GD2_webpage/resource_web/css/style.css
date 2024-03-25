@@ -15,16 +15,17 @@ h2{
     font-family: "Ephesis", cursive;
     font-style: italic;
     color: #89004b;
-    font-size: 140px;
+    font-size: 750%;
     margin-top: 2%;
     margin-bottom: 5%;
-    margin-left: 8.5%;
+    margin-left: 12%;
+    display: inline-block;
 }
 
 h3{
     font-family: "UnifrakturMaguntia", cursive;
     text-align: center;
-    font-size: 60px;
+    font-size: 240%;
     margin-right: 15%;
     margin-left: 15%;
     line-height: 180%;
@@ -44,9 +45,9 @@ h5{
     font-family: "UnifrakturMaguntia", cursive;
     text-align: left;
     margin-left: 6%;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-bottom: 2%;
-    font-size: 60px;
+    font-size: 350%;
 }
 
 p{
@@ -91,14 +92,14 @@ h4.column1{
 }
 
 #bot a{
+    display: inline;
     font-family:monospace;
     color: #89004b;
-    text-align: center;
-    font-size: 20px;
-    margin-left: 13%;
-    margin-top: 50%;
-    margin-bottom: 20%;
-    line-height: 3;
+    text-align: right;
+    font-size: 160%;
+    margin-left: 12%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 #bot a:hover {
     color: rgb(255, 56, 156);
@@ -113,12 +114,49 @@ a:active {
     color: rgb(111, 1, 135);
 }
 .aname{
+    display: block;
     text-decoration: none;
     font-family:monospace;
     color: #89004b;
-    font-size: 20px;
-    margin-left: 18%;
+    font-size: 90%;
+    margin-left: 0%;
+    white-space: nowrap;
 }
+/* .container2 {
+    display: flex;
+  }
+  .container2 > div {
+    flex: 1; 
+  } */
+
+.container2 {
+    display: grid;
+    grid-gap: 2%;
+    width: 60%;
+    margin-left: 30%;
+    grid-template-columns: 1fr 1fr 1fr; /* fraction*/
+  }
+
+/* .container2 {
+    width: 150%;
+}
+.container2 ul {
+    padding: 0; 
+    margin: 0;
+    list-style-type: none; 
+    display: inline;
+}
+.container2 ul li {
+    width: 150%;
+    height: 100%;
+    background-color: none;
+    float: left;
+} */
+/* .li2{
+    display: inline-block;
+    margin-left: 10%;
+} */
+
 pre {
     white-space: pre-wrap;
     word-wrap: break-word;
@@ -127,14 +165,25 @@ pre {
     margin-right: 3%;
 }
 li{
+    list-style: none;
     font-family:monospace;
     margin-left: 25%;
     font-size: 180%;
-    line-height: 140%;
+    line-height: 160%;
 }
 
 
 /*defining each div*/
+#lingo{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
+#Aline{
+    display: inline-block;
+    position: inherit;
+    margin-left: 38%;
+}
 #AATP{
     display: inline-block;
     position: inherit;
@@ -297,7 +346,6 @@ li{
 }
 
 
-
 /*defining the background*/
 html {
     background: url(images/AdobeStock_61471142.jpeg) center center fixed;
@@ -305,8 +353,9 @@ html {
 }
 
 body{
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
     width: 100vw;
     height: 100vh;
 }
@@ -341,7 +390,6 @@ img{
 header{
     background-image: url(images/2034278_c1f3a.gif);
     margin-bottom: 4%;
-    width: 100vw;
 }
 
 
@@ -356,22 +404,21 @@ header{
 
 /*back to top button style*/
 .top {
-    --offset: 20px; 
+    display: inline;
+    --offset: 60%; 
     position: sticky;
-    bottom: 20px;      
-    margin-left: 90%;
+    bottom: 5%;      
     place-self: end;
     margin-top: calc(100vh + var(--offset));
     
     /* visual styling */
+    margin-left: 90%;
     text-decoration: none;
-    padding: 10px;
+    padding: 1%;
     font-family: monospace;
     color: #fff;
     background: rgb(255, 56, 156);
     border-radius: 100px;
-    white-space: nowrap;
-    width: 100%;
   }
 
 
@@ -442,6 +489,8 @@ iframe{
     margin-left: 30%;
     margin-top: 2%;
     margin-bottom:2%;
+    width: 500;
+    height: 340;
 }
 
 
@@ -512,3 +561,54 @@ iframe{
 }
 
 
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    img{max-width: 70%;}
+    #bot a{display: block; margin-left: 0; text-align: left;}
+    h5{font-size: 250%;}
+    h3{font-size: 250%;}
+    h2{font-size: 170%; display: inline-block;}
+    #btn1{margin-left: 30%;}
+    .aname{font-size: 70%; margin-right: 20%; margin-left: 40%;}
+    li{margin-left: -3%; font-size: 180%; margin-right: 5%;}
+    iframe{margin-left: -5%; width: 150; height: 150;}
+    .container2{margin-left: 5%; margin-bottom: 8%;}
+    #top a{font-size: 600%; text-align: center; margin-left: 0%;} 
+    .top{margin-left: 75%; bottom: 15%;}
+    .header{margin-bottom: -12%;}
+
+    #Aline{margin-left: 15%;}
+    #AATP{margin-left:15%;}
+    #AP{margin-left: 15%;}
+    #Deco{margin-left: 15%;}
+    #Bow{margin-left: 15%;}
+    #BABY{margin-left: 15%;}
+    #BLO{margin-left: 15%;}
+    #BRO{margin-left: 15%;}
+    #BOY{margin-left: 15%;}
+    #Bsk{margin-left: 15%;}
+    #Cut{margin-left: 15%;}
+    #Coo{margin-left: 15%;}
+    #EGL{margin-left: 15%;}
+    #GB{margin-left: 15%;}
+    #Ita{margin-left: 15%;}
+    #IW{margin-left: 15%;}
+    #Jet{margin-left: 15%;}
+    #JSK{margin-left: 15%;}
+    #Ker{margin-left: 15%;}
+    #LM{margin-left: 15%;}
+    #LP{margin-left: 15%;}
+    #MM{margin-left: 15%;}
+    #Mana{margin-left: 15%;}
+    #Meta{margin-left: 15%;}
+    #MmM{margin-left: 15%;}
+    #OOTD{margin-left: 15%;}
+    #OTT{margin-left: 15%;}
+    #PC{margin-left: 15%;}
+    #RHS{margin-left: 15%;}
+    #Shir{margin-left: 15%;}
+    #SS{margin-left: 15%;}
+    #TPS{margin-left: 15%;}
+}
