@@ -14,7 +14,7 @@ h2{
 #top a{
     font-family: "Ephesis", cursive;
     font-style: italic;
-    color: #89004b;
+    color: black;
     font-size: 750%;
     margin-top: 2%;
     margin-bottom: 5%;
@@ -454,7 +454,7 @@ div.content {
 .header {
     padding: 8px 8px;
     margin-bottom: -5%;
-    background: #89004b;
+    background: rgb(255, 0, 200);
     color: #f1f1f1;
 }
 
