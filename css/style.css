@@ -348,7 +348,7 @@ li{
 
 /*defining the background*/
 html {
-    background: url(images/AdobeStock_356630808.jpeg) center center fixed;
+    background: url(images/AdobeStock_776250811.jpeg) center center fixed;
     background-size: cover;
 }
 
@@ -362,8 +362,8 @@ body{
 
 footer{
     text-align: center;
-    background-color: rgb(255, 0, 200);
-    color: white;
+    background-color: #fce0ee;
+    color: rgb(0, 0, 0);
     margin-bottom: -8%;
     padding: 2%;
 }
