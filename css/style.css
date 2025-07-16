@@ -15,12 +15,17 @@ h2{
     font-family: "Ephesis", cursive;
     font-style: italic;
     color: black;
-    font-size: 750%;
+    font-size: 900%;
     margin-top: 2%;
     margin-bottom: 5%;
     margin-left: 6%;
     display: inline-block;
     text-decoration: none;
+}
+
+#top a:hover {
+    color: #ff389c;
+    cursor: crosshair;
 }
 
 h3{
